@@ -44,3 +44,18 @@ h4 {
 	width: 90%;
 	margin:auto;
 }
+#joon {
+	width: 20%;
+}
+.button {
+    background-color: #F2563A; 
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-family:'Cabin', sans-serif;
+
+

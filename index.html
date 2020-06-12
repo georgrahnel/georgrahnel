@@ -76,7 +76,10 @@
 				<hr>
 <script>
 function onButtonPrototype(){
-    gtag("event", "Prototype")
+    gtag("event", "Prototype");
+}
+function onButtonSubscribe(){
+    gtag("event", "Subscribe");
 }
 </script>
  <div id="description">
@@ -120,7 +123,7 @@ function onButtonPrototype(){
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_240b8f1d9425f9ef9fac6456e_f2e3f9088e" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="onButtonSubscribe"();></div>
         </div>
         </form>
 </div>

@@ -1,6 +1,6 @@
 body {
 	font-family: 'verdana', sans-serif;
-	background-color: white;
+	background-color: darkgray;
   margin:auto;
 }
 
@@ -10,17 +10,17 @@ table {
 }
 #trial {
   width: 100%;
-  background-color: gray;
+  background-image:url("https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/gbwm0p98mcxcxfhexejj/travis-scott");
   text-align: center;
   padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 130px;
 }
 #joon {
 	width: 20%;
 }
 #review {
 	width: 85%;
-	background-color: gray;
+	background-image:url("https://i.ytimg.com/vi/-FyIzXUkN00/maxresdefault.jpg");
 	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 60px;
@@ -38,7 +38,7 @@ h4 {
 	margin-left: auto;
 }
 #description {
-	background-color: gray;
+	background-color: white;
 	padding-top: 70px;
 	padding-bottom: 60px;
 	width: 90%;
